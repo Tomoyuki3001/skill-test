@@ -1,0 +1,289 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+}
+
+.header_logo_container {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.header_logo_div {
+    margin-right: 5%;
+    padding: 5% 0%;
+}
+
+.header_logo {
+    height: 6vh;
+    width: auto;
+    border-radius: 50%;
+    border: 3px solid #818181;
+}
+
+.header_sentence_los {
+    color: #344D67;
+}
+.header_sentence_mount {
+    color: #747474;
+}
+.header_link_container {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_link {
+    color: #747474;
+}
+
+.contents_container {
+    width: 100%;
+}
+
+.top_back_image {
+    width: 100%;
+}
+.top_container {
+    background-image: url(./Images/image_main_back.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_header_los {
+    color: #747474;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.top_header_mount {
+    color: #344D67;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.history_container {
+    background-image: url(./Images/image_history_back.jpg);
+    background-size: cover;
+    height: 110vh;
+}
+
+.history_header_container {
+    display: flex;
+    margin-left: 25%;
+}
+
+.history_sentence_01 {
+    font-size: 8rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.history_sentence_history {
+    color: #344D67;
+    font-size: 2rem;
+    margin-top: 45%;
+}
+
+.history_sentence_square {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 20px;
+    height: 20px;
+}
+
+.history_sentence_main {
+    padding: 0% 30%;
+}
+
+
+.carousel_container {
+    background-color: rgba(52, 77, 103, 0.5);
+}
+
+.carousel_contents {
+    width: 90%;
+    margin: 15% 5% 0% 5%;
+    
+}
+
+.carousel_image {
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.carousel_contents .slick-slide {
+    margin:0 10px;
+}
+
+.slick-prev, 
+.slick-next {
+    position: absolute;
+    top: 42%;
+    cursor: pointer;
+    outline: none;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    height: 15px;
+    width: 15px;
+}
+
+.slick-prev {
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+
+.slick-dots {
+    text-align:center;
+	margin:20px 0 0 0;
+}
+
+.slick-dots li {
+    display:inline-block;
+	margin:0 5px;
+}
+
+.slick-dots button {
+    color: transparent;
+    outline: none;
+    width:8px;
+    height:8px;
+    display:block;
+    border-radius:50%;
+    background:#ffffff;
+}
+
+.slick-dots .slick-active button{
+    background:#333333;
+}
+
+.climb_container {
+    background-image: url(./Images/image_climb_back.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.climb_introduction {
+    padding-right: 20%;
+    padding-left: 10%;
+}
+
+.climb_header_container {
+    display: flex;
+    margin-left: 25%;
+    align-items: center;
+}
+
+.climb_sentence_02 {
+    font-size: 8rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.climb_sentence_climb {
+    color: #344D67;
+    font-size: 2rem;
+    margin-top: 30%;
+}
+
+.climb_sentence_square {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 20px;
+    height: 20px;
+}
+
+.climb_sentence_side {
+    margin-left: 5%;
+}
+
+
+
+.tab_container {
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 30%;
+}
+
+.tab_class {
+    background-color: darkgrey;
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    order: -1;
+    padding: 0% 2%;
+    cursor: pointer;
+}
+
+input[name="tab_name"] {
+    display: none;
+}
+
+input:checked + .tab_class {
+    background-color: #344D67;
+    color: aliceblue;
+}
+
+.tab_content {
+    display: none;
+    width: 100%;
+}
+
+input:checked + .tab_class + .tab_content {
+    display: block;
+}
+
+
+.tab_contents_main {
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 15%;
+    padding: 2% 1% 2% 2%;
+}
+
+.contents_header_2 {
+    color: #344D67;
+    font-size: 25px;
+}
+.contents_main_container {
+    display: flex;
+    margin-top: 3%;
+}
+
+.contents_location_name {
+    margin-left: 10%;
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #747474;
+    background-color: #344D67;
+    padding: 0% 20%;
+}
+
+.footer_sentence_los {
+    color: #747474;
+}
+

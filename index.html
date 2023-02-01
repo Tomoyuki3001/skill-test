@@ -4,10 +4,140 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="./index.css" />
     <title>Skills test</title>
   </head>
   <body>
-    <div>Test</div>
+    <div class="main_container" id="top">
+      <header class="header_container">
+        <div class="header_logo_container">
+          <div class="header_logo_div">
+            <a href="#top"><img class="header_logo" src="./Images/image_logo.jpg" alt="/" /></a>
+          </div>
+          <div>
+            <p class="header_sentence_los">LOSANGELES</p>
+            <p class="header_sentence_mount">MOUNTAINS</p>
+          </div>
+        </div>
+        <div class="header_link_container">
+          <a class="header_link" href="#history">01. HISTORY</a>
+          <a class="header_link" href="#team">02. TEAM</a>
+        </div>
+      </header>
+        <div class="top_container">
+          <div class="top_header_box">
+            <h1 class="top_header_los">LOSANGELES</h1>
+          <h1 class="top_header_mount">MOUNTAINS</h1>
+          </div>
+        </div>
+        <div class="history_container" id="history">
+          <div class="history_header_container">
+            <p class="history_sentence_01">01</p>
+            <div class="history_sentence_container">
+              <p class="history_sentence_history">HISTORY</p>
+              <div class="history_sentence_square"></div>
+            </div>
+          </div>
+          <p class="history_sentence_main">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit, quasi facere nihil molestias accusamus cumque odit.
+            Vel eligendi libero amet magnam officiis ea pariatur accusamus
+            architecto ad quasi nulla quibusdam vero saepe, itaque,
+            necessitatibus labore autem tempora accusantium, minima quisquam
+            omnis. Saepe quia minima dolore amet, excepturi non quas. Voluptate?
+          </p>
+          <div class="carousel_container">
+            <ul class="carousel_contents">
+              <li><img class="carousel_image" src="./Images/image_carousel_person.jpg" alt=""></li>
+              <li><img class="carousel_image" src="./Images/image_carousel_mountain.jpg" alt=""></li>
+              <li><img class="carousel_image" src="./Images/image_carousel_person.jpg" alt=""></li>
+              <li><img class="carousel_image" src="./Images/image_carousel_mountain.jpg" alt=""></li>
+              <li><img class="carousel_image" src="./Images/image_carousel_person.jpg" alt=""></li>
+              <li><img class="carousel_image" src="./Images/image_carousel_mountain.jpg" alt=""></li>
+              <li><img class="carousel_image" src="./Images/image_carousel_person.jpg" alt=""></li>
+              <li><img class="carousel_image" src="./Images/image_carousel_mountain.jpg" alt=""></li>
+            </ul>
+        </div>
+      </div>
+      <div class="climb_introduction" id="team">
+        <div class="climb_header_container">
+          <p class="climb_sentence_02">02</p>
+          <div class="climb_sentence_container">
+            <p class="climb_sentence_climb">CLIMB</p>
+            <div class="climb_sentence_square"></div>
+          </div>
+          <p class="climb_sentence_side">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil sint doloremque quas commodi natus repellat temporibus molestiae provident, qui corporis.</p>
+        </div>
+      </div>
+      <div class="climb_container">
+        <div class="tab_container">
+          <input type="radio" name="tab_name" id="tab1" checked>
+          <label class="tab_class" for="tab1">MOUNTAIN1</label>
+          <div class="tab_content">
+            <div class="tab_contents_main">
+              <h2 class="contents_header_2">SCHEDULE</h2>
+              <div class="contents_main_container">
+                <div>
+                  <p>25Nov2016</p>
+                  <p>28Nov2016</p>
+                  <br>
+                  <p>18Dec2016</p>
+                  <br>
+                  <p>7Jan2017</p>
+                </div>
+                <div class="contents_location_name">
+                  <p>Vestibulum viverra</p>
+                  <p>Vestibulum viverra</p>
+                  <br>
+                  <p>Vestibulum viverra</p>
+                  <br>
+                  <p>Vestibulum viverra</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <input type="radio" name="tab_name" id="tab2">
+          <label class="tab_class" for="tab2">MOUNTAIN2</label>
+          <div class="tab_content">
+            <div class="tab_contents_main">
+              <h2 class="contents_header_2">SCHEDULE</h2>
+              <div class="contents_main_container">
+                <div>
+                  <p>12Nov2016</p>
+                  <p>13Nov2016</p>
+                  <br>
+                  <p>07Dec2016</p>
+                  <br>
+                  <p>01Jan2017</p>
+                </div>
+                <div class="contents_location_name">
+                  <p>Vestibulum viverra</p>
+                  <p>Vestibulum viverra</p>
+                  <br>
+                  <p>Vestibulum viverra</p>
+                  <br>
+                  <p>Vestibulum viverra</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer class="footer_container">
+      <div class="header_logo_container">
+        <div class="header_logo_div">
+          <a href="#top"><img class="header_logo" src="./Images/image_logo.jpg" alt="/" /></a>
+        </div>
+        <div>
+          <p class="footer_sentence_los">LOSANGELES</p>
+          <p class="header_sentence_mount">MOUNTAINS</p>
+        </div>
+      </div>
+      <p>COPYRIGHT 2016 ALL RIGHTS RESERVED</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./index.js"></script>
   </body>
 </html>
